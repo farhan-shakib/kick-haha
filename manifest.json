@@ -13,7 +13,7 @@
     "content_scripts": [
       {
         "matches": ["*://*.facebook.com/*"],
-        "js": ["no_haha.js"]
+        "js": ["kick-haha.js"]
       }
     ]
   
