@@ -1,9 +1,8 @@
-# kick-haha
+# kick-haha v1.1.0
 
 ## What it does?
 
-* Kikcs haha emo out of your sight. Tested at www.facebook.com and m.facebook.com (basic one)
-* It does not remove it from reaction panel. It just disables the view.
+* Kikcs haha emo out of timeline and replaces with meh. Tested at www.facebook.com and m.facebook.com (basic one)
 
 ## What you can do for help?
 
