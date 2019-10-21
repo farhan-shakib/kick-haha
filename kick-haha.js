@@ -45,4 +45,3 @@ if(window.location.href.search(pat1) > -1){
 else if(window.location.href.search(pat2) > -1){
     setInterval(kick_haha_mobile, 100)
 }
-//image.src == "https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/SiB5naaVLhd.png"
