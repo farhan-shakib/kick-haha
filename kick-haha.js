@@ -1,34 +1,21 @@
-function create_meh_class(){
-    node = document.createElement('img')
-    node.src = 'https://static.xx.fbcdn.net/images/emoji.php/v9/tee/1/16/1f611.png'
-    node.style.height = '18px'
-    node.style.width = '18px'
-
-    return node
-}
-
-function delete_all_classes(image){
-    image.classList = []
-    return image
-}
-
 function kick_haha_desktop(){
-    var images = document.querySelectorAll('i')
-    images.forEach(image => {
-        result = image.parentElement.attributes[0].nodeValue.toLowerCase().includes("haha")
-        if(result == true){
-            image = delete_all_classes(image)
-            image.appendChild(create_meh_class())
+    var images = document.querySelectorAll('[aria-label*="Haha"]')
+    for(i=0; i<images.length; i++){
+        if(images[i].parentNode.parentNode.parentNode.tagName.toLowerCase() == 'div'){
+            images[i].remove()
         }
-    })
+        else{
+            images[i].parentNode.parentNode.parentNode.remove()
+        }
+        
+    }
 }
-
 
 function kick_haha_mobile(){
     var images = document.querySelectorAll('img')
     images.forEach(image => {
         if(sources.indexOf(image.src) > -1){
-            image.src = 'https://static.xx.fbcdn.net/images/emoji.php/v9/tee/1/16/1f611.png'
+            image.remove()
         }
     })
 }    

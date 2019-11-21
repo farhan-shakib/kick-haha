@@ -1,4 +1,4 @@
-# kick-haha v1.1.0
+# kick-haha v2.0.0
 
 ## What it does?
 
