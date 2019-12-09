@@ -2,7 +2,7 @@
 
 ## What it does?
 
-* Kicks haha emo out of timeline and replaces with meh. Tested at www.facebook.com and m.facebook.com (basic one)
+* Kicks haha emo out of timeline. Tested at www.facebook.com and m.facebook.com (basic one)
 
 ## What you can do for help?
 
